@@ -1,0 +1,34 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "doggo me",
+      "intents": [
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": [
+            "what can I say"
+          ]
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "stop"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "help"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "stop playing"
+          ]
+        }
+      ],
+      "types": []
+    }
+  }
+}
